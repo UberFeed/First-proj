@@ -1,0 +1,316 @@
+@media(max-width: 1502px){
+    main{
+        section.header{
+            div.contacts{
+                grid-template-columns: 614px 1fr minmax(200px, 250px);
+                div.number{
+                    grid-template-columns: 30px 170px 30px 150px;
+                }
+            }
+            div.header1{
+                div.nav{
+                    grid-template-columns: minmax(332px, 610px) 705px;
+                    ul{
+                        li:nth-child(7){
+                            a{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media(max-width: 1210px){
+    main{
+        section.header{
+            div.contacts{
+                grid-template-columns: 1fr 1fr minmax(200px, 250px) ;
+                div.logo{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 1050px){
+    main{
+        section.header{
+            div.contacts{
+                grid-template-columns: 20px 1fr minmax(200px, 250px);
+                div.logo{
+                    img{
+                        display: none;
+                    }
+                }
+            }
+            div.header1{
+                div.nav{
+                    grid-template-columns: minmax(20px, 610px) minmax(580px, 705px);
+                }
+            }
+        }
+    }
+}
+@media(max-width: 615px){
+    main{
+        section.header{
+            div.contacts{
+                grid-template-columns: 20px minmax(200px, 250px);
+                justify-content: center;
+                div.number{
+                    display: none;
+                }
+            }
+            div.header1{
+                div.nav{ 
+                    grid-template-columns: minmax(20px, 610px) minmax(450px, 705px);
+                    ul{
+                        li:nth-child(7){
+                            a{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                div.baner{
+                    background-repeat: initial;
+                    span{
+                        padding-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+////////////Section about///////
+
+@media(max-width: 1357px){
+    main{
+        section.about{
+            div.decor{
+                display: none;
+            }
+        }
+    }
+}
+@media(max-width: 875px){
+    main{
+        section.about{
+            div.info{
+                div.inform{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 768px){
+    main{
+        section.about{
+            div.info{
+                div.photo{
+                    display: none;
+                }
+                div.inform{
+                    text-align: center;
+                    p{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//////////////Special rec/////////////
+
+@media(max-width: 1200px){
+    main{
+        section.special-recept{
+            div.text{
+                margin-right: 0;
+            }
+            div.photo{
+                display: none;
+            }
+        }
+    }
+}
+
+/////////////Experience/////////////
+
+@media(max-width: 1200px){
+    main{
+        section.experience{
+            div.wrapper{
+                grid-template-columns: repeat(2, 300px);
+                grid-template-rows: 1fr 1fr;
+            }
+        }
+    }
+}
+
+@media(max-width: 630px){
+    main{
+        section.experience{
+            div.wrapper{
+                grid-template-columns: 300px;
+                grid-template-rows: repeat(4, 1fr);
+                div{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+/////////////Amazing Delicious/////////////
+
+@media(max-width: 1200px){
+    main{
+        section.amazing{
+            position: initial;
+            img[src="decor3.png"]{
+                display: none;
+            }
+            img[src="decor4.png"]{
+                display: none;
+            }
+            div{
+                justify-content: center;
+                div.photo{
+                    display: none;
+                }
+                
+            }
+            div.menu{
+                position: initial;
+                margin: 0;
+            }
+            div.Main{
+                justify-content: center;
+                div.menu{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 630px){
+    main{
+        section.amazing{
+            div.menu{
+                box-sizing: border-box;
+                width: 500px;
+                table{
+                    margin-left: 10px;
+                    tr{
+                        td{
+                            img[src="menu-items2.png"]{
+                                width: 400px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+/////////////Mobile app/////////////
+
+@media(max-width: 965px){
+    main{
+        section.mobileapp{
+            div.phone{
+                display: none;
+            }
+        }
+    }
+}
+@media(max-width: 600px){
+    main{
+        section.mobileapp{
+            div.text{
+                margin-left: 20px;
+                h4{
+                    text-align: center;
+                }
+                h5{
+                    font-size: 4.9rem;
+                }
+                p{
+                    font-size: 1.25rem;
+                    text-align: center;
+                }
+                div.mobhref{
+                    flex-direction: column;
+                    a+a{
+                        margin-top: 20px;
+                        margin-left: 0;
+                        img{
+                            width: 242px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/////////////Footer/////////////
+
+@media(max-width: 1440px){
+    main{
+        footer{
+            img[src="decor3.png"]{
+                display: none;
+            }
+        }
+    }
+}
+@media(max-width: 1260px){
+    main{
+        footer{
+            img[src="decor5.png"]{
+                display: none;
+            }
+        }
+    }
+}
+@media(max-width: 1140px){
+    main{
+        footer{
+            div.working{
+                margin: 0 50px;
+            }
+        }
+    }
+}
+@media(max-width: 960px){
+    main{
+        footer{
+            div.takeit{
+                display: none;
+            }
+            div.working{
+                margin: 0 50px 0 20px;
+            }
+        }
+    }
+}
+@media(max-width: 615px){
+    main{
+        footer{
+            div.working{
+                display: none;
+            }
+        }
+    }
+}
